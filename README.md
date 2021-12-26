@@ -5,4 +5,5 @@ We observed that the table is missing certain information. We'll fill in the mis
 <img src="images/GDP1.PNG"/>
  
 Here we need to show the correlation between all numerical columns. So, here we using Seaborn and Seaborn is a data visualization library that is built on top of matplotlib and contains a direct function to create heatmaps. The heatmap shows the correlation between all numerical columns.
+
 <img src="images/GDP2.PNG"/>

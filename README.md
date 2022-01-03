@@ -26,3 +26,16 @@ First label encoding the categorical features ‘Region’ and ‘Climate’, an
 
 <img src="images/GDP5.PNG"/>
 
+We are using the linear regression model here. As for metric, we will check both root mean squared error and mean squared log error.
+
+<img src="images/GDP6.PNG"/>
+
+As we know, the target isn't linear and has a lot of features, it's worth experimenting with nonlinear models like the random forest model.
+
+<img src="images/GDP7.PNG"/>
+
+## Visualization of Results
+
+To see how the model is doing. is it far from here, we can make scatter plot of prediction against ground truth. The model gives a reasonable prediction, as the data points are gathering around the line y=x.
+
+

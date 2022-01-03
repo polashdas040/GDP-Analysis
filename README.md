@@ -22,11 +22,11 @@ Let’s look at the countries with low birthrate (< 10%) and low GDP per capita 
 <img src="images/GDP4.PNG"/>
 
 ## Training and Testing
-First label encoding the categorical features ‘Region’ and ‘Climate’, and we will just use all features given in the data set without further feature engineering.
+First label encoding the categorical features ‘Region’ and ‘Climate’, and we are just use all features given in the data set without further feature engineering.
 
 <img src="images/GDP5.PNG"/>
 
-We are using the linear regression model here. As for metric, we will check both root mean squared error and mean squared log error.
+We are using the linear regression model here. As for metric, we are check both root mean squared error and mean squared log error.
 
 <img src="images/GDP6.PNG"/>
 
@@ -38,4 +38,22 @@ As we know, the target isn't linear and has a lot of features, it's worth experi
 
 To see how the model is doing. is it far from here, we can make scatter plot of prediction against ground truth. The model gives a reasonable prediction, as the data points are gathering around the line y=x.
 
+<img src="images/GDP8.PNG"/>
+
+## Total GDP
+### Top Countries
+
+It is additionally fascinating to check out the all-out GDPs, which I take as 'Gross domestic product ($ per capita)' × 'Populace'. Here are the top 10 countries with highest total GDPs, their GDP make up to about 2/3 of the global GDP. So these top 10 countries are playing a very important role in the world's GDP.
+
+<img src="images/GDP9.PNG"/>
+
+Here we compare the above ten countries’ rank in total GDP and GDP per capita.
+
+<img src="images/GDP10.PNG"/>
+
+### Factors affecting Total GDP
+
+Here we can also check the correlation between total GDP and the other columns. The top two factors are population and area, following many factors that have also been found mostly correlated to GDP per capita.
+
+<img src="images/GDP11.PNG"/>
 

@@ -57,3 +57,13 @@ Here we can also check the correlation between total GDP and the other columns. 
 
 <img src="images/GDP11.PNG"/>
 
+### Comparison of the Top 10 countries
+
+Finally, let us do a comparison of the economic structure for the ten countries with the highest total GDP. Here we are comparing three major sectors like the primary sector (Agricultural), the secondary sector (Industry), and the tertiary sector (services) all contribute to GDP by producing goods and services (Services).
+
+<img src="images/GDP12.PNG"/>
+
+As well as their land usage
+
+<img src="images/GDP13.PNG"/>
+

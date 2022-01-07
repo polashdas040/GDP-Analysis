@@ -1,4 +1,33 @@
+# GDP Analysis Data Science project
+
+## Overview and Motivation
+Economic growth increases state capacity and the supply of public goods. Every country wants to increase their GDP If GDP is rising, the economy is in solid shape, and the nation is moving forward. Last few years, we have seen China’s GDP growth was really amazing compare another country China can be role model for other country. 
+
+## Related work
+Yes of course we have taken idea from your lecture and through internet also we have visited some website like Kaggle and so on.
+
+## Objective
+The primary goal of this project is to investigate the dataset "Countries of the World" and to focus on the elements that are influencing a Country's GDP per capita.
+
+## Research questions
+1. What are the factors affect the growth of GDP of a country?
+2. What are the other factors other than the major factor which effect a country’s GDP?
+3. What are the Co-relation between the dataset elements?
+4. Is the low-birth rate Country effect the GDP of a country?
+5. Which Countries of the World have the highest GDP and Why?
+
+After the analysis of the project we have ended up for the above five questions. As the project is about the GDP of the countries so at first, we have to find the major factor which directly affect the growth of GDP of a country.
+After that we have to find the others factors other than the major factors which effect the growth of GDP. Also, we have to find the Co-relation between the dataset elements of GDP factors.
+During the Analysis, we have found a fact that a country which have low birth rate will have a higher GDP which is very interesting.
+As the project progresses and the questions evolve then we have to find the top countries which have high GDP.
+
+## Dataset
+For this Project, we first collected the data of the world country GDP by surfing the internet and download the worldGDPperCapital.csv file.
+In the dataset, there are information about the ten factors which are needed to calculate GDP of a Country.
+
+
 # Analysis
+
 ## Data Preparation – fill in missing values
 We observed that the table is missing certain information. We'll fill in the missing data with the median of the region that a country belongs to because countries that are geologically adjacent are often similar in many aspects. Let's look at the region medians for 'GDP ($ per capita),' 'Literacy (percent),' Agriculture, Industry, and Service,' for example. Note that we use the mode instead of the median for 'climate' because it appears that 'climate' is a categorical feature here.
 

@@ -19,7 +19,7 @@ The primary goal of this project is to investigate the dataset "Countries of the
 After the analysis of the project we have ended up for the above five questions. As the project is about the GDP of the countries so at first, we have to find the major factor which directly affect the growth of GDP of a country.
 After that we have to find the others factors other than the major factors which effect the growth of GDP. Also, we have to find the Co-relation between the dataset elements of GDP factors.
 During the Analysis, we have found a fact that a country which have low birth rate will have a higher GDP which is very interesting.
-As the project progresses and the questions evolve then we have to find the top countries which have high GDP.
+As the project progress and the questions evolve then we have to find the top countries which have high GDP.
 
 ## Dataset
 For this Project, we first collected the data of the world country GDP by surfing the internet and download the worldGDPperCapital.csv file.
